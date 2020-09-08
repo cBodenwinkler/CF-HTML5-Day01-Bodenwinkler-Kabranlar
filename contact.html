@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<title>Contact Form</title>
+</head>
+<body>
+	<form>
+		<div>
+			<h1> Registration Form - Fight Club </h1>
+		</div>
+
+		<div>
+			First Name:<br>
+			<input type="text" name="firstname" placeholder="First Name" required><br>
+			Last Name:<br>
+			<input type="text" name="lastname" placeholder="Last Name" required><br>
+			E-Mail:<br>
+			<input type="email" name="e-mail" placeholder="max@mustermann.at"><br>
+
+		</div>
+
+		<div> <!-- radio buttons -->
+			<h2>Sex:</h2>
+
+			<input type="radio" name="gender" value="female" required>Female <br>
+			<input type="radio" name="gender" value="male" required>Male <br>
+			<input type="radio" name="gender" value="other" required>Other <br>
+		</div>
+
+		<div>
+			Agree to <a href="termsAndConditions.html"> terms and conditions:</a> <input type="checkbox" name="agreed" required> <br>
+			<input type="submit" value="Submit Form" required>
+		</div>
+
+
+
+	</form>
+
+</body>
+</html>
